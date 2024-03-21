@@ -13,7 +13,7 @@ body {
     height: 100vh;
 }
 
-input {
+input, select{
     background: linear-gradient(
       90deg, 
       #f0f7da 0%,

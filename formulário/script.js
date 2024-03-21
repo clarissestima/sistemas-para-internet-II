@@ -12,7 +12,7 @@ cpfInput.addEventListener('input', function(event) {
     event.target.value = valor;
 })
 
-
+/*
 const telefoneInput = document.getElementById('tel');
 telefoneInput.addEventListener('input', function(event) {
     let valor = event.target.value;
@@ -25,3 +25,4 @@ telefoneInput.addEventListener('input', function(event) {
 
     event.target.value = valor;
 });
+*/

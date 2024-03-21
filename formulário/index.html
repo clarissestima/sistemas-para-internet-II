@@ -10,40 +10,40 @@
 </head>
 <body>
     <script src="script.js" defer></script>
-    <div class="formulario">
+    <div id="formulario">
     <h1>Cadastre-se</h1>
         <form>
             <div class="elemento">
                 <label for="nome">Nome:</label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" required>
             </div>
 
             <div class="elemento">
                 <label for="date">Data de nascimento:</label>
-                <input type="date" name="date" id="date">    
+                <input type="date" name="date" id="date" min="01/01/1900" max="21/03/2024" required>    
             </div>
 
             <div class="elemento">
                 <label for="cpf">CPF:</label>
-                <input type="cpf" name="cpf" id="cpf">
+                <input type="cpf" name="cpf" id="cpf" required>
             </div>
 
             <div class="elemento">
                 <label for="genero">Gênero:</label>
                 <select id="genero" name="genero" required>
-                    <option value="masculino">Masculino</option>
                     <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
                     <option value="outro">Outro</option>
                </select>
             </div>
 
             <div class="elemento">
                 <label for="tel">Telefone:</label>
-                <input type="tel" id="tel" name="tel" pattern="([0-9]{2}) [0-9]{5}-[0-9]{4}">
+                <input type="tel" id="tel" name="tel" required>
             </div>
 
-            <div class="elemento" id="submit">
-                <button>Enviar</button>
+            <div class="elemento">
+                <button id="submit">Enviar</button>
             </div>
         </form>
     </div>

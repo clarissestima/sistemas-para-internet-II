@@ -50,7 +50,7 @@ button:hover {
   }
 
 
-.formulario {
+#formulario {
     background-color: #65b8a6;
     padding: 50px;
     max-width: 500px;
